@@ -23,4 +23,5 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ./configs:/workspace/configs
+      - ./:/workspace
+    #  - ./configs:/workspace/configs
